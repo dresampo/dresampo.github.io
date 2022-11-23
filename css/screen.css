@@ -208,8 +208,7 @@ a.btn:hover {
 }
 
 #header-arrow {
-  font-size: 140px;
-  margin: -10px auto;
+  font-size: 100px;
   text-align: center;
   position: absolute;
   width: 100%;
@@ -475,6 +474,10 @@ ul li {
   color: #fff;
   background: #b80135 no-repeat center center;
   background-size: cover;
+}
+
+#logo {
+  width: 150px;
 }
 
 #site-head:after {
