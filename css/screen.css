@@ -250,7 +250,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #efefef;
+  border-top: 1px solid #3A4145;
   margin: 3.2em 0;
   padding: 0;
 }
@@ -472,7 +472,7 @@ ul li {
   margin-bottom: 0rem;
   text-align: center;
   color: #fff;
-  background: #b80135 no-repeat center center;
+  background: white no-repeat center center;
   background-size: cover;
 }
 
@@ -524,8 +524,7 @@ ul li {
   position: relative;
 }
 .post-holder.odd {
-  background: #b80135;
-  color: white;
+  background: white;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
