@@ -71,6 +71,7 @@ var $sitehead = $("#site-head");
     if ($sitehead.length) {
       $(window).scroll(function () {
         var w = $(window).scrollTop();
+        var wb = $(window).scrollBottom();
         var g = $sitehead.offset().top;
         var h = $sitehead.offset().top + $sitehead.height() - 100;
 
@@ -97,7 +98,7 @@ var $sitehead = $("#site-head");
 
             $(this).attr("item_index", t);
 
-            if (w >= f && w <= b) {
+            if (wb >= f && wb <= b) {
               i.addClass("active");
               a.fadeOut("slow");
             } else {
