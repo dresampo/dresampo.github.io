@@ -71,7 +71,7 @@ var $sitehead = $("#site-head");
     if ($sitehead.length) {
       $(window).scroll(function () {
         var w = $(window).scrollTop();
-        var wb = $(window).scrollBottom();
+        var wb = $(window).scrollTop() + $(window).height();
         var g = $sitehead.offset().top;
         var h = $sitehead.offset().top + $sitehead.height() - 100;
 
