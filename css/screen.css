@@ -293,6 +293,10 @@ blockquote cite a {
   font-weight: normal;
 }
 
+#reviews blockquote {
+  margin-top: 1em;
+}
+
 dl {
   margin: 1.6em 0;
 }
@@ -449,7 +453,7 @@ ul li {
 .inner {
   position: relative;
   width: 80%;
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -476,8 +480,14 @@ ul li {
   background-size: cover;
 }
 
+#site-title {
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 60px 0;
+}
+
 #logo {
-  width: 150px;
+  width: 130px;
 }
 
 #site-head:after {
